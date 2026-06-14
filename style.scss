@@ -187,6 +187,8 @@ display: flex;
 
 .site-info {
   order: 2;
+  text-align: center;
+  width: 100%;
 
   @include mobile {
     order: 2;
@@ -197,6 +199,7 @@ nav {
     order: 3;
 	font-family: $helveticaNeue;
 	font-size: 18px;
+	text-align: center;
 
 	@include mobile {
 		order: 3;
@@ -205,7 +208,7 @@ nav {
 	}
 
 	a {
-		margin-left: 20px;
+		margin-left: 0 10px;
 		color: $darkGray;
 		font-weight: 300;
 		letter-spacing: 1px;
@@ -228,7 +231,7 @@ nav {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: 5px 0 0 0;
   color: $gray;
   font-size: 16px;
 
