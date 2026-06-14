@@ -82,12 +82,6 @@ ul, ol {
   padding-left: 30px;
 }
 
-// .toc-centered ul { // Centers the automated Table of Contents block
-//   margin: 15px auto;
-//   display: table;
-//   padding-left: 20px;
-// }
-
 ul {
   list-style-type: disc;
 }
@@ -165,9 +159,9 @@ img {
   border-bottom: 1px solid $lightGray;
 
 display: flex;
-	flex-direction: column;
+	justify-content: space-between;
 	align-items: center;
-	text-align: center;
+	flex-wrap: wrap;
 
   @include mobile {
     flex-direction: column;
@@ -176,10 +170,11 @@ display: flex;
 }
 
 .site-avatar {
-  order: 1;
+  order: 3;
   width: 100px;
   height: auto;
-  margin: 0 auto 15px;
+  margin-left: 15px;
+  margin-right: 0;
 
   @include mobile {
     order: 1;
@@ -192,9 +187,7 @@ display: flex;
 }
 
 .site-info {
-  order: 2;
-  max-width: 100%
-  margin-bottom: 15px;
+  order: 1;
 
   @include mobile {
     order: 2;
@@ -202,7 +195,7 @@ display: flex;
 }
 
 nav {
-    order: 3;
+    order: 2;
 	font-family: $helveticaNeue;
 	font-size: 18px;
 
@@ -233,8 +226,6 @@ nav {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
-  white-space: normal;
-  word-wrap: break-word;
 }
 
 .site-description {
