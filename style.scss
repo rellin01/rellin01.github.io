@@ -170,7 +170,7 @@ display: flex;
 }
 
 .site-avatar {
-  order: 3;
+  order: 1;
   width: 100px;
   height: auto;
   margin-left: 15px;
@@ -187,7 +187,7 @@ display: flex;
 }
 
 .site-info {
-  order: 1;
+  order: 2;
 
   @include mobile {
     order: 2;
@@ -195,7 +195,7 @@ display: flex;
 }
 
 nav {
-    order: 2;
+    order: 3;
 	font-family: $helveticaNeue;
 	font-size: 18px;
 
