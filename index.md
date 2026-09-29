@@ -27,7 +27,7 @@ I earned my Clinical Doctorate of Audiology (Au.D.) at Northwestern University i
 The primary goal of this project is to explore how performance changes for timing based language retrieval tasks when moving from models that focus on global audio-text embeddings to temporal-enhanced models and hybrid approaches. To achieve this, I will initially work to gain skills in audio signal processing and deep learning with multi-modal AI and application of common deep learning evaluation metrics for data analysis. Additionally this project will involve content review and practice coding exercises, including a literature review and reproduction of Detection and Classification of Acoustic Scenes and Events (DCASE) challenges.
 
 
-[My Final Report](files/Ellinger and Zhang - Evaluating Audio Feature Extractors and Multi-Stage Pre-training for Audio-Moment Retrieval.pdf)
+[My Final Report](files/Ellinger%20and%20Zhang%20-%20Evaluating%20Audio%20Feature%20Extractors%20and%20Multi-Stage%20Pre-training%20for%20Audio-Moment%20Retrieval.pdf)
 
 ## My Blog
 
